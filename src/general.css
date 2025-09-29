@@ -1,0 +1,36 @@
+* {
+    font: Arial;
+    background-color: #0a0908
+}
+p {
+    color: #f6efee
+}
+
+li {
+    color: #f6efee
+}
+
+button {
+    color: #f6efee
+}
+
+.big-text {
+    font-size: 90px;
+    color: #cce8cc
+}
+
+.heading-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.vertical-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headshot {
+    clip-path: circle(40%);
+}
