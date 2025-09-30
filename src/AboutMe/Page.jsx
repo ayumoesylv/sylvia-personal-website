@@ -1,4 +1,5 @@
 import {useState} from "react";
+import Navbar from "./../ConstantComponents/Navbar";
 import selfie from "/Users/sylviazhang/vscode projects/Personal Website/personal-website/src/IMG_1313.jpeg";
 import bioData from "./bioData"
 
@@ -43,7 +44,12 @@ function MainContent() {
 
 function Bio() {
     const bioComponents = bioData.map((bio) => {
-        return <BioElement img = {bio.img} title = {bio.title} text = {bio.text}/>
+        return (
+            <div>
+                <BioElement img = {bio.img} title = {bio.title} text = {bio.text}/> 
+            </div>
+            
+        )
     })
     return (
         <div>
@@ -54,11 +60,11 @@ function Bio() {
 
 function BioElement(props) {
     return (
-        <>
-            <img src = {props.img}/>
+        <div className = "vertical-container round-border">
+            <img src = {props.img} width = {50} height = "auto"/>
             <h2>{props.title}</h2>
             <p>{props.text}</p>
-        </>
+        </div>
     )
 }
 
@@ -67,8 +73,8 @@ export default function AboutMe() {
 
     return (
         <div>
+            <Navbar />
             <Heading />
-            
             <MainContent />
         </div>
     )

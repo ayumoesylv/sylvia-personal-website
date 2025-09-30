@@ -1,8 +1,13 @@
 * {
     font: Arial;
-    background-color: #0a0908
+    background-color: #0a0908;
+    box-sizing: border-box
 }
 p {
+    color: #f6efee
+}
+
+h2 {
     color: #f6efee
 }
 
@@ -19,6 +24,32 @@ button {
     color: #cce8cc
 }
 
+.nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0a0908;
+    position: sticky;
+    top: 0;
+}
+
+.nav-ul .nav-li {
+    float:right;
+}
+
+.nav-ul .nav-li .nav-a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-ul .nav-li .nav-a:hover {
+    background-color: #cce8cc;
+}
+
 .heading-container {
     display: flex;
     gap: 20px;
@@ -33,4 +64,11 @@ button {
 
 .headshot {
     clip-path: circle(40%);
+}
+
+.round-border {
+    border: 2px #cce8cc;
+    border-style: solid;
+    border-radius: 50px;
+    padding: 10px 50px;
 }

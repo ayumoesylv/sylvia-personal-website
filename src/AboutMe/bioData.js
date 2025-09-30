@@ -1,16 +1,18 @@
+import cake from "./../cake.png"
+
 export default [
     {
-        img: "/Users/sylviazhang/vscode projects/Personal Website/personal-website/src/star cluster.png",
+        img: cake,
         title: "Birthday",
         text: "August 31 2007"
     },
     {
-        img: "/Users/sylviazhang/vscode projects/Personal Website/personal-website/src/star cluster.png",
+        img: cake,
         title: "Zodiac",
         text: "Virgo"
     },
     {
-        img: "/Users/sylviazhang/vscode projects/Personal Website/personal-website/src/star cluster.png",
+        img: cake,
         title: "College",
         text: "Cornell University"
     },
