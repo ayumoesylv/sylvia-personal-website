@@ -1,5 +1,6 @@
 import {useState} from "react";
 import Navbar from "./../ConstantComponents/Navbar";
+import Contacts from "./../ConstantComponents/Contacts"
 import selfie from "/Users/sylviazhang/vscode projects/Personal Website/personal-website/src/IMG_1313.jpeg";
 import bioData from "./bioData"
 
@@ -74,6 +75,7 @@ export default function AboutMe() {
             <Navbar />
             <Heading />
             <MainContent />
+            <Contacts />
         </div>
     )
 }
