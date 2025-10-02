@@ -16,5 +16,15 @@ export default [
         title: "College",
         text: "Cornell University"
     },
+    {
+        img: cake,
+        title: "Favourite Icecream Flavour",
+        text: "Vanilla"
+    },
+    {
+        img: cake,
+        title: "Favourite Library",
+        text: "Olin"
+    }
     
 ]

@@ -12,22 +12,22 @@ function Heading() {
 
     function determineText() {
         if (showBio) {
-            return "Click me to hide my bio!"
+            return "<-- Click me to hide my bio!"
         } else {
-            return "Click me to show my bio!"
+            return "<-- Click me to show my bio!"
         }
     }
 
     return (
-        <div className = "heading-container">
-            <div className = "vertical-container">
+        <div>
+            <div className = "heading-container">
                 <img src = {selfie} className="headshot" width={250} height="auto" alt = "Sylvia" onClick={handleShowBio}/>
-                <p>{determineText()}</p>
+                <div className = "vertical-container">
+                    <h1 className="big-text">Sylvia Zhang</h1>
+                    <p>{determineText()}</p>
+                </div>
             </div>
-            <div className = "vertical-container">
-                <h1 className="big-text">Sylvia Zhang</h1>
-                {showBio ? <Bio /> : null}
-            </div>
+            {showBio ? <Bio /> : null}
         </div>
     )
 }
@@ -45,14 +45,12 @@ function MainContent() {
 function Bio() {
     const bioComponents = bioData.map((bio) => {
         return (
-            <div>
-                <BioElement img = {bio.img} title = {bio.title} text = {bio.text}/> 
-            </div>
+            <BioElement img = {bio.img} title = {bio.title} text = {bio.text}/> 
             
         )
     })
     return (
-        <div>
+        <div className = "bio-container">
             {bioComponents}
         </div>
     )
@@ -60,7 +58,7 @@ function Bio() {
 
 function BioElement(props) {
     return (
-        <div className = "vertical-container round-border">
+        <div className = "round-border vertical-container">
             <img src = {props.img} width = {50} height = "auto"/>
             <h2>{props.title}</h2>
             <p>{props.text}</p>

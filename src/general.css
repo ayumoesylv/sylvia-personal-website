@@ -56,6 +56,12 @@ button {
     justify-content: center;
 }
 
+.bio-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px
+}
+
 .vertical-container {
     display: flex;
     align-items: center;
