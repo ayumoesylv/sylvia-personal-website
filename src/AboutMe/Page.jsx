@@ -1,5 +1,7 @@
 import {useState} from "react";
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Navbar from "./../ConstantComponents/Navbar";
+import Hobbies from "./../Hobbies/Page.jsx"
 import Contacts from "./../ConstantComponents/Contacts"
 import selfie from "/Users/sylviazhang/vscode projects/Personal Website/personal-website/src/IMG_1313.jpeg";
 import bioData from "./bioData"
@@ -71,11 +73,15 @@ export default function AboutMe() {
     
 
     return (
-        <div>
+        <BrowserRouter>
             <Navbar />
             <Heading />
             <MainContent />
             <Contacts />
-        </div>
+            <Routes>
+                <Route path = "/" element = {<AboutMe />} />
+                <Route path = "/hobbies" element = {<Hobbies />} />
+            </Routes>
+        </BrowserRouter>
     )
 }
