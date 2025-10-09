@@ -24,7 +24,7 @@ button {
     color: #cce8cc
 }
 
-.nav-ul {
+.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -34,11 +34,8 @@ button {
     top: 0;
 }
 
-.nav-ul .nav-li {
+.navbar .nav-link {
     float:right;
-}
-
-.nav-ul .nav-li .nav-a {
     display: block;
     color: white;
     text-align: center;
@@ -46,7 +43,7 @@ button {
     text-decoration: none;
 }
 
-.nav-ul .nav-li .nav-a:hover {
+.navbar .nav-link:hover {
     background-color: #cce8cc;
 }
 

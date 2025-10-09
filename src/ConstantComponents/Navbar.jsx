@@ -3,11 +3,11 @@ import {Link} from 'react-router-dom';
 
 export default function Navbar() {
     return(
-        <nav>
-            <Link className = "nav-li" to = "/">About Me</Link>
-            <Link className = "nav-li" to = "/hobbies">Hobbies</Link>
-            <Link className = "nav-li" to = "/contact">Contact Me</Link>
-            <Link className = "nav-li" to = "/projects">My Projects</Link>
+        <nav className = "navbar">
+            <Link className = "nav-link" to = "/">About Me</Link>
+            <Link className = "nav-link" to = "/hobbies">Hobbies</Link>
+            <Link className = "nav-link" to = "/contact">Contact Me</Link>
+            <Link className = "nav-link" to = "/projects">My Projects</Link>
             {/* <ul className = "nav-ul">
                 <li className = "nav-li"><a className = "nav-a" href="/Users/sylviazhang/vscode projects/Personal Website/personal-website/src/AboutMe/Page.jsx">About Me</a></li>
                 <li className = "nav-li"><a className = "nav-a" href="/Users/sylviazhang/vscode projects/Personal Website/personal-website/src/MyProjects/Page.jsx">Projects</a></li>
