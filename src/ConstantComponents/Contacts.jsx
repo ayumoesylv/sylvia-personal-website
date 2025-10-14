@@ -1,7 +1,7 @@
 export default function Contacts() {
     return (
         <footer>
-            <ul>
+            <ul className = "container">
                 <a 
                     href = "https://www.instagram.com/keerz.ie/" 
                     target = "_blank"

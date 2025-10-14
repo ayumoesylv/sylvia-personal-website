@@ -24,6 +24,13 @@ button {
     color: #cce8cc
 }
 
+.container {
+    width: 50%;
+    padding: 20px 100px;
+    margin: auto;
+    text-align: center;
+}
+
 .navbar {
     list-style-type: none;
     margin: 0;

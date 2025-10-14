@@ -34,7 +34,7 @@ function Heading() {
 
 function MainContent() {
     return (
-        <div>
+        <div className="container">
             <p>
                 Hi! I’m Sylvia. It’s nice to meet you! I’m a first year at Cornell interested in software engineering, artificial intelligence, and endangered languages. Some of my hobbies include Model UN, digital art, and watching horror game let’s plays! Something I’d love to learn how to do is to bake!
             </p>
