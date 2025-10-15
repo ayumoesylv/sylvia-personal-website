@@ -26,7 +26,6 @@ button {
 
 .container {
     width: 50%;
-    padding: 20px 100px;
     margin: auto;
     text-align: center;
 }
@@ -81,4 +80,8 @@ button {
     border-style: solid;
     border-radius: 50px;
     padding: 10px 50px;
+}
+
+.carousel {
+    display: flex;
 }
