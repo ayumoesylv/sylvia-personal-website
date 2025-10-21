@@ -19,6 +19,27 @@ button {
     color: #f6efee
 }
 
+.contact-form {
+    color: #f6efee;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input {
+    color: #f6efee;
+    width: 50px;
+}
+
+.contact-form textarea {
+    color: #f6efee;
+    width: 50px;
+}
+
+.contact-form button {
+    color: #f6efee;
+    width: 50px;
+}
+
 .big-text {
     font-size: 90px;
     color: #cce8cc
