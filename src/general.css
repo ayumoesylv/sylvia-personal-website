@@ -7,6 +7,10 @@ p {
     color: #f6efee
 }
 
+h1 {
+    color: #f6efee
+}
+
 h2 {
     color: #f6efee
 }
@@ -83,7 +87,11 @@ button {
 .bio-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px
+    gap: 20px;
+    padding: 100px;
+    width: 1000px;
+    margin: 0 auto;
+
 }
 
 .vertical-container {
@@ -105,4 +113,55 @@ button {
 
 .carousel {
     display: flex;
+}
+
+.contact-container {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+input[type=text] {
+    width: 100%;
+    height: auto;
+    border: 1px solid #cce8cc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin: 10px 0px;
+}
+
+input[type = email] {
+    width: 100%;
+    height: auto;
+    border: 1px solid #cce8cc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin: 10px 0px;
+}
+
+textarea {
+    width: 100%;
+    height: auto;
+    border: 1px solid #cce8cc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin: 10px 0px;
+}
+
+.contact-name {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.contact-name label {
+    white-space: nowrap;
 }

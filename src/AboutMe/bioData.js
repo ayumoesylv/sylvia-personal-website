@@ -18,12 +18,12 @@ export default [
     },
     {
         img: cake,
-        title: "Favourite Icecream Flavour",
+        title: "Fav Icecream",
         text: "Vanilla"
     },
     {
         img: cake,
-        title: "Favourite Library",
+        title: "Fav Library",
         text: "Olin"
     }
     

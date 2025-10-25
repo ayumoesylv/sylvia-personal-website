@@ -17,7 +17,7 @@ export default function MyProjects() {
     })
     return (
         <div>
-            <h2>My Projects</h2>
+            <h1>PROJECTS</h1>
             <h2>About my personal website development</h2>
             <p>I was inspired to make a personal website after I went to Big Red Hacks 
                 and started learning React! With absolutely no experience at all, 
