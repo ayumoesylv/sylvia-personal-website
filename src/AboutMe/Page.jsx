@@ -1,6 +1,6 @@
 import {useState} from "react";
 import Contacts from "./../ConstantComponents/Contacts"
-import selfie from "/Users/sylviazhang/vscode projects/Personal Website/personal-website/src/IMG_1313.jpeg";
+import selfie from "../IMG_1313.jpeg";
 import bioData from "./bioData"
 
 function Heading() {
